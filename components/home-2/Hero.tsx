@@ -53,7 +53,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-[url('/img/andban-hero.jpg')] bg-cover bg-no-repeat relative isolate min-h-screen flex items-center py-20">
+    <section className="bg-[url('/img/andban-hero.jpg')] bg-cover bg-no-repeat relative isolate min-h-screen flex items-center py-20 z-[40]">
       <div className="container mx-auto text-center relative z-100">
         <h1 className="text-white font-semibold mb-10 text-3xl md:text-5xl">
           Welcome to Andman Mangroves
