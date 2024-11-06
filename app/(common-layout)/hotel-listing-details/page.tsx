@@ -69,11 +69,11 @@ const Page = () => {
   const [totalChildPrice, setTotalChildPrice] = useState(0);
 
   const handleSelectionChange = (
-    prevValue,
-    newValue,
-    roomPrice,
-    childPrice,
-    roomId
+    prevValue: number,
+    newValue: number,
+    roomPrice: number,
+    childPrice: number,
+    roomId: number
   ) => {
     const difference = newValue - prevValue;
     const newTotalSelected = totalSelected + difference;
